@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.contioner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(236deg,rgba(34, 152, 195, 1) 0%, rgba(104, 45, 253, 1) 100%);
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+.todoList{
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 40px 70px;
+    background-color: hsl(0, 0%, 100% , .3);
+    border-radius: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bababad8;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 50px;
+    margin-top: 30px;
+}
+.row input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 3px 3px 13px;
+    font-size: 1.2rem;
+}
+
+.check-box{
+
+} 
+
+ ul li.checked{
+    text-decoration: line-through;
+    
+
+ }
+
