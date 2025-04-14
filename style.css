@@ -44,17 +44,29 @@ button{
     background-color: orangered;
 }
 
-ul li{
-    list-style: none;
+.list-item  ul li{
     padding: 10px 3px 3px 13px;
     font-size: 1.2rem;
+}
+.list-item{
+    position: relative;
+    list-style: none;
+}
+span{
+    position: absolute;
+    right: 3px;
+    cursor: pointer;
+    font-size: 25px;
+}
+span:hover{
+    background-color: gainsboro;
 }
 
 .check-box{
 
 } 
 
- ul li.checked{
+.checked{
     text-decoration: line-through;
     
 
